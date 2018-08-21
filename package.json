@@ -1,0 +1,16 @@
+{
+  "name": "graphql-tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Scott Williams <scott@swilliams.me>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.0.0",
+    "hoek": "^5.0.4",
+    "joi": "^13.6.0"
+  },
+  "scripts": {
+    "start": "node lib/index"
+  }
+}
