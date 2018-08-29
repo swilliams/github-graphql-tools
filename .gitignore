@@ -81,3 +81,5 @@ typings/
 .DS_Store
 /recipes/*.json
 /report.csv
+/token.json
+/credentials.json
