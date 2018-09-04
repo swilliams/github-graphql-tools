@@ -14,7 +14,12 @@
     "joi": "^13.6.0",
     "opn": "^5.3.0"
   },
+  "devDependencies": {
+    "code": "^5.2.0",
+    "lab": "^16.0.0"
+  },
   "scripts": {
-    "start": "node lib/index"
+    "start": "node lib/index",
+    "test": "lab"
   }
 }
