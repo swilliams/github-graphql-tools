@@ -83,3 +83,4 @@ typings/
 /report.csv
 /token.json
 /credentials.json
+lib/recipes/*.json
