@@ -1,0 +1,509 @@
+{
+  "data": {
+    "repository": {
+      "issues": {
+        "edges": [
+          {
+            "node": {
+              "title": "Homepage: Upcoming Events button links to page not found",
+              "url": "https://github.com/Tallwave/Natural-Grocers-Redesign/issues/931",
+              "number": 931,
+              "assignees": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Scott Williams",
+                      "login": "swilliams"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Boris Smirnov",
+                      "login": "bsmirnov"
+                    }
+                  }
+                ]
+              },
+              "projectCards": {
+                "edges": [
+                  {
+                    "node": {
+                      "project": {
+                        "name": "Launch Board"
+                      }
+                    }
+                  }
+                ]
+              },
+              "labels": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Critical"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Dev"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Homepage"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "QA Blocked"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Staging"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "Shopping List: shopping list sidebar navigation not working",
+              "url": "https://github.com/Tallwave/Natural-Grocers-Redesign/issues/933",
+              "number": 933,
+              "assignees": {
+                "edges": []
+              },
+              "projectCards": {
+                "edges": [
+                  {
+                    "node": {
+                      "project": {
+                        "name": "Launch Board"
+                      }
+                    }
+                  }
+                ]
+              },
+              "labels": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Critical"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Dev"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Priority 1.3"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Shopping List"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "Shopping List: multiple issues with \"type\" dropdown",
+              "url": "https://github.com/Tallwave/Natural-Grocers-Redesign/issues/939",
+              "number": 939,
+              "assignees": {
+                "edges": []
+              },
+              "projectCards": {
+                "edges": [
+                  {
+                    "node": {
+                      "project": {
+                        "name": "Launch Board"
+                      }
+                    }
+                  }
+                ]
+              },
+              "labels": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Critical"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Design"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Dev"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Priority 1.3"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Shopping List"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "Shopping List: ingredient / item field for adding an item does not work as intended",
+              "url": "https://github.com/Tallwave/Natural-Grocers-Redesign/issues/940",
+              "number": 940,
+              "assignees": {
+                "edges": []
+              },
+              "projectCards": {
+                "edges": [
+                  {
+                    "node": {
+                      "project": {
+                        "name": "Launch Board"
+                      }
+                    }
+                  }
+                ]
+              },
+              "labels": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Critical"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Design"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Dev"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Priority 1.3"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Shopping List"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "Shopping List: products added to shopping list NOT from recipe should be categorized under 'additional items' group",
+              "url": "https://github.com/Tallwave/Natural-Grocers-Redesign/issues/949",
+              "number": 949,
+              "assignees": {
+                "edges": []
+              },
+              "projectCards": {
+                "edges": [
+                  {
+                    "node": {
+                      "project": {
+                        "name": "Launch Board"
+                      }
+                    }
+                  }
+                ]
+              },
+              "labels": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Critical"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Dev"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Priority 1.3"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Shopping List"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "Events: Cancelled Event Styling Needs to be Completed",
+              "url": "https://github.com/Tallwave/Natural-Grocers-Redesign/issues/964",
+              "number": 964,
+              "assignees": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Scott Williams",
+                      "login": "swilliams"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Boris Smirnov",
+                      "login": "bsmirnov"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": null,
+                      "login": "TylerCasey5"
+                    }
+                  }
+                ]
+              },
+              "projectCards": {
+                "edges": [
+                  {
+                    "node": {
+                      "project": {
+                        "name": "Launch Board"
+                      }
+                    }
+                  }
+                ]
+              },
+              "labels": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Critical"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Events"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Priority 1.2"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "Shopping List: clicking 'create new list' from {N}power account page does not work as intended",
+              "url": "https://github.com/Tallwave/Natural-Grocers-Redesign/issues/968",
+              "number": 968,
+              "assignees": {
+                "edges": []
+              },
+              "projectCards": {
+                "edges": [
+                  {
+                    "node": {
+                      "project": {
+                        "name": "Launch Board"
+                      }
+                    }
+                  }
+                ]
+              },
+              "labels": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Critical"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Dev"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Priority 1.3"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Shopping List"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "09/04/18—Store Detail: Store Event Listing Needs Fixing (Production)",
+              "url": "https://github.com/Tallwave/Natural-Grocers-Redesign/issues/977",
+              "number": 977,
+              "assignees": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Maximo Mena",
+                      "login": "mmenavas"
+                    }
+                  }
+                ]
+              },
+              "projectCards": {
+                "edges": [
+                  {
+                    "node": {
+                      "project": {
+                        "name": "Launch Board"
+                      }
+                    }
+                  }
+                ]
+              },
+              "labels": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Critical"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Dev"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Events"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Priority 1.1"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Store Locator"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "New Product Availability Files for testing",
+              "url": "https://github.com/Tallwave/Natural-Grocers-Redesign/issues/981",
+              "number": 981,
+              "assignees": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Boris Smirnov",
+                      "login": "bsmirnov"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": null,
+                      "login": "saiktw"
+                    }
+                  }
+                ]
+              },
+              "projectCards": {
+                "edges": [
+                  {
+                    "node": {
+                      "project": {
+                        "name": "Launch Board"
+                      }
+                    }
+                  }
+                ]
+              },
+              "labels": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Critical"
+                    }
+                  },
+                  {
+                    "node": {
+                      "name": "Priority 1.1"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "title": "Make sure that changing info and settings persists to inmar",
+              "url": "https://github.com/Tallwave/Natural-Grocers-Redesign/issues/985",
+              "number": 985,
+              "assignees": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Boris Smirnov",
+                      "login": "bsmirnov"
+                    }
+                  }
+                ]
+              },
+              "projectCards": {
+                "edges": [
+                  {
+                    "node": {
+                      "project": {
+                        "name": "Launch Board"
+                      }
+                    }
+                  }
+                ]
+              },
+              "labels": {
+                "edges": [
+                  {
+                    "node": {
+                      "name": "Critical"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
