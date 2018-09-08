@@ -1,4 +1,5 @@
-const { expect } = require('code');
+const Hoek = require('hoek');
+const { expect, fail } = require('code');
 const { it, describe } = exports.lab = require('lab').script();
 const issueListReport = require('../../lib/transforms/issueListReport');
 
@@ -38,5 +39,31 @@ describe('issueListReport', () => {
   it('creates an array with the same number of issues as the input', () => {
     const results = issueListReport(validData, options);
     expect(results.length).to.equal(fixtureDataLength);
+  });
+
+  it('filters out issues not in the project', () => {
+    const data = Hoek.clone(validData);
+    const projectNodePath = 'data.repository.issues.edges.0.node.projectCards.edges.0.node.project';
+    const projectNode = Hoek.reach(data, projectNodePath);
+    if (projectNode === undefined) {
+      fail('Did not get proper projectNode');
+      return;
+    }
+    projectNode.name = 'test';
+    const results = issueListReport(data, options);
+    expect(results.length).to.equal(fixtureDataLength - 1);
+  });
+
+  it('filters out issues missing the required label', () => {
+    const data = Hoek.clone(validData);
+    const labelNodePath = 'data.repository.issues.edges.0.node.labels.edges.0.node';
+    const labelNode = Hoek.reach(data, labelNodePath);
+    if (labelNode === undefined) {
+      fail('Did not get proper projectNode');
+      return;
+    }
+    labelNode.name = 'test';
+    const results = issueListReport(data, options);
+    expect(results.length).to.equal(fixtureDataLength - 1);
   });
 });
