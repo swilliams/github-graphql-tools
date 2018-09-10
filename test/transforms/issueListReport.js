@@ -16,7 +16,7 @@ describe('issueListReport', () => {
     const throws = () => {
       issueListReport(validData, {});
     };
-    expect(throws).to.throw('Expected options to have projectName and labelName');
+    expect(throws).to.throw('Expected options to have projectName and labelName.');
   });
 
   it('retrieves the issue title', () => {
