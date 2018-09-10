@@ -21,6 +21,7 @@
   },
   "scripts": {
     "start": "node lib/index",
-    "test": "lab"
+    "test": "lab",
+    "cover": "lab -c"
   }
 }
