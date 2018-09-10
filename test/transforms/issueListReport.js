@@ -12,6 +12,13 @@ const options = {
 const fixtureDataLength = validData.data.repository.issues.edges.length;
 
 describe('issueListReport', () => {
+  it('requires options to include a projectName and labelName', () => {
+    const throws = () => {
+      issueListReport(validData, {});
+    };
+    expect(throws).to.throw('Expected options to have projectName and labelName');
+  });
+
   it('retrieves the issue title', () => {
     const results = issueListReport(validData, options);
     const issuesWithTitles = results.filter((iss) => iss.title && iss.title !== '');
